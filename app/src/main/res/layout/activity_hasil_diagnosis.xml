@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFA07A"
+    tools:context="com.anangmufid.android.diagnosisserviks.hasilDiagnosis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Hasil Diagnosis Penyakit"
+            android:textAlignment="center"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textNamaPenyakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nama Penyakit          :   "
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/hasilPenyakit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Penyakit"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textPenanganan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Penanganan               :   "
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/hasilPenanganan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Penanganan"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textPresentase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Persentase                  :   "
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/hasilPersentase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="100 %"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textGambar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Gambar                        :   "
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"/>
+
+                <ImageView
+                    android:id="@+id/hasilGambar"
+                    android:layout_width="73dp"
+                    android:layout_height="177dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.86"
+                    android:background="@drawable/vagina"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Selesai"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Selesai"
+            android:background="@drawable/orangebutton"/>
+
+    </LinearLayout>
+
+</LinearLayout>

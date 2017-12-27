@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anangmufid.android.diagnosisserviks.PenyakitKanker"
+    android:background="#FFA07A">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Penyakit Kanker Sitem Reproduksi Wanita "
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:id="@+id/textview3"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="539dp"
+            app:layout_constraintHorizontal_weight="1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            tools:layout_editor_absoluteY="28dp"
+            android:layout_below="@id/textview3">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/kanker" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:text="Penyakit kanker merupakan suatu penyakit yang disebabkan pertumbuhan sel-sel jaringan tubuh tidak normal (tumbuh sangat cepat dan tidak terkendali), dan menekan jaringan tubuh sehingga mempengaruhi organ tubuh, Akmal, (2010)."
+            android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="1. Kanker Vagina"
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="Kanker vagina adalah jenis kanker yang menyerang wanita yang telah memasuki masa menopause. Tetapi tidak menutup kemungkinan wanita yang berada pada fase reproduktif juga dapat terkena kanker vagina. Penyebab kanker ini adalah seorang wanita tidak menjaga kebersihan alat reproduksinya, gaya hidup yang suka merokok dan suka berganti ganti pasangan. Gejala dari kanker vagina diantaranya adanya benjolan pada vagina, sekresi cairan encer dari vagina, rectum terasa nyeri ketika berkemih dikarenakan kanker yang sudah parah, pendarahan pada vagina. "
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="2. Kanker Ovarium"
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="Kanker ovarium merupakan kanker yang menyerang indung telur wanita. Penyebab kematian tertinggi wanita. Kanker ovarium sulit untuk dideteksi danbaru disadari setelah memasuki stadium lanjut. Gejala pada kanker ovarium adalah nyeri diperut, perut mengalami pembesaran,  nafsu makan hilang dan sering merasa kenyang, kembung secara terus menerus, pendarahan pada vagina,berat badan menurun, sering muntah-muntah."
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="3. Kanker Endometrium"
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="Kanker endometrium disebut juga kanker Rahim. Kanker tersebut menyerang Rahim wanita dan meruoakan pembunuh nomor satu. Gejalanya sulit dideteksi sehingga dijuluki dengan “silent killer”. Gejala umum pada kanker endometrium adalah sakit pada panggul, pendarahan pada wanita menopause, sakit pada saat berhubungan seksual, sakit pada saat buang air kecil, merasa kelelahan terus menerus. "
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="4. Kanker Serviks"
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="Kanker serviks juga bisa disebut kanker leher Rahim, kanker serviks terkenal dangan keganasannya, kanker serviks manjadi momok menakutkan bagi wanita dan masih banyak yang enggan melakukan pemeriksaan dini karena merasa rishi membuka organ intimnya. Gejala yang terjadi pada penderita kanker serviks diantaranya adalah kurus, pucat, mengalami keputihan disertai darah dan berbau secara terus menerus, terasa sesak dan nyeri diperut bagian bawah, pendarahan saat berhubungan intim. "
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="5. Kista"
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="Kista adalah tumor jinak yang terdapat dalam organ reproduksi wanita yang paling banyak ditemui. Kista termasuk tumor jinak yang terbungkus selaput jaringan. Kista tidak dapat menyebar karena kista terdiri atas sel-sel tumor yang terpisah dengan jaringan normal dan sekitarnya. Kista dapat diangkat dengan cara pembedahan dan tidak membahayakan bagi penderitanya. Kista ditandai dengan munculnya gejala seperti  sering buang air kecil, nyeri saat buang air besar, merasa kelelahan dan pusing, perut kembung, perubahan siklus menstruasi dan mual, muntah atau nyeri payudara. "
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="5. Miom"
+                    android:gravity="left"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:text="Miom adalah bungkus otot Rahim yang berubah menjadi tumor jinak, dengan kata lain miom adalah daging tumbuh dalam Rahim. Miom menyerang wanita dan jika menyerang ibu hamil, maka tidak boleh diangkan karena akan beresiko pada keguguran. Gejala miom adalah pendarahan selama atau diluar masa menstruasi dalam waktu lama, sulit hamil, terasa kenyal diperut bagian bawah (Rahim), terasa ada benjolan diperut, nyeri selama menstruasi "
+                    android:gravity="left"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/orangebutton"
+                    android:text="Kembali"
+                    android:id="@+id/buttonKembali"/>
+            </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

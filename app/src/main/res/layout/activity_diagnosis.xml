@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anangmufid.android.diagnosisserviks.Diagnosis"
+    android:id="@+id/diagnosislayout"
+    android:background="@drawable/vector">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pilih Gejala-Gejala yang Anda Alami"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@android:color/black"
+        android:textSize="22dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="539dp"
+        app:layout_constraintHorizontal_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_below="@id/textView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Keluar darah sedikit-sedikit dari vagina"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyeri pada perut bagian bawah"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keluar flek dari vagina"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pusing"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keluar darah menggumpal dari vagina"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perut terasa mual"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muntah tiap kali makan"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyeri perut menyeluruh"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nafsu makan menghilang"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kembung terus menerus"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pucat"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terasa sesak"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meriang"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat badan menurun"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyeri selama menstruasi"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muncul benjulan di perut"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyeri pada saat buang air kecil"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sakit pada panggul"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merasa kelelahan terus menerus"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sering buang air kecil"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyeri pada saat buang air besar"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyeri pada payudara"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muncul benjolan pada vagina"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/gejala24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sakit pada saat berhubungan seksual"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/buttonProsesDiagnosis"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/orangebutton"
+                android:text="Diagnosis"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
