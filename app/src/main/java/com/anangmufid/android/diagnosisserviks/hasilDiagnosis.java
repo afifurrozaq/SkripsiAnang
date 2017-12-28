@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class hasilDiagnosis extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,10 +26,9 @@ public class hasilDiagnosis extends AppCompatActivity implements View.OnClickLis
         textPersentase = (TextView) this.findViewById(R.id.hasilPersentase);
         gambarPenyakitDiderita = (ImageView) this.findViewById(R.id.hasilGambar);
         done = (Button) this.findViewById(R.id.Selesai);
-
         textPenyakit.setText(getIntent().getExtras().getString("NamaPenyakit"));
         textPenanganan.setText(getIntent().getExtras().getString("Penanganan"));
-        textPersentase.setText(getIntent().getExtras().getString("Persentase") + "%");
+        textPersentase.setText(getIntent().getExtras().getString("Presentase") + " %");
 
         if (getIntent().getExtras().getString("NamaPenyakit").equalsIgnoreCase("Kanker Vagina")) {
             gambarPenyakitDiderita.setImageResource(R.drawable.vagina);
